@@ -48,3 +48,14 @@
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=mhmtemnbgr1&bg_color=transparent&color=58A6FF&line=58A6FF&point=FFFFFF&hide_border=true" width="100%" alt="Contribution Graph" />
 </div>
+
+<br>
+
+<!-- YILAN ANİMASYONU -->
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mhmtemnbgr1/mhmtemnbgr1/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mhmtemnbgr1/mhmtemnbgr1/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/mhmtemnbgr1/mhmtemnbgr1/output/github-contribution-grid-snake.svg">
+  </picture>
+</div>
