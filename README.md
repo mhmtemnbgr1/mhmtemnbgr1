@@ -1,9 +1,9 @@
-
+<!-- DİNAMİK HEADER GRAFİĞİ -->
 <div align="center">
     <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=200&section=header&text=Mehmet%20Emin%20Bu%C4%9Fra&fontSize=50&fontAlignY=35&desc=Computer%20Engineering%20Student%20%7C%20Istanbul&descAlignY=55&descSize=20&animation=fadeIn" width="100%" alt="Header Banner"/>
 </div>
 
-
+<!-- SOSYAL MEDYA BUTONLARI -->
 <div align="center">
   <a href="https://linkedin.com/in/mhmtemnbgr" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
@@ -18,7 +18,7 @@
 
 <br>
 
-
+<!-- HAKKIMDA VE TEKNOLOJİLER (YAN YANA SADE TASARIM) -->
 <table align="center" width="100%" style="border: none;">
   <tr>
     <td width="50%" valign="top">
@@ -40,17 +40,11 @@
       <img src="https://skillicons.dev/icons?i=docker,git,arduino,matlab" alt="Tools" />
     </td>
   </tr>
-    <br>
-<!-- YILAN ANİMASYONU -->
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mhmtemnbgr1/mhmtemnbgr1/output/dist/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mhmtemnbgr1/mhmtemnbgr1/output/dist/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/mhmtemnbgr1/mhmtemnbgr1/output/dist/github-contribution-grid-snake.svg">
-  </picture>
-</div>
 </table>
 
 <br>
 
-
+<!-- DİNAMİK AKTİVİTE GRAFİĞİ (SADECE GÖRSEL) -->
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mhmtemnbgr1&bg_color=transparent&color=58A6FF&line=58A6FF&point=FFFFFF&hide_border=true" width="100%" alt="Contribution Graph" />
+</div>
