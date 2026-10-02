@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="190" viewBox="0 0 840 190" role="img" aria-label="Languages: Go, C++, C#, Python, JavaScript, TypeScript. Frontend: React, Tailwind, HTML, CSS. Databases: PostgreSQL, MySQL, Firebase. Tools: Docker, Git, Arduino, MATLAB.">
+<style>
+ .t{font-family:ui-monospace, 'Cascadia Mono', Consolas, 'SF Mono', Menlo, 'Liberation Mono', monospace;fill:#d6f2ff} .dim{fill:#6f8aa3}
+ .grn{fill:#39ff88} .cyn{fill:#2de2ff} .pnk{fill:#ff4fa3} .amb{fill:#ffb627} .pur{fill:#a77bff}
+ .on{opacity:0;animation:on 0s linear forwards} @keyframes on{to{opacity:1}}
+ .blink{animation:blink 1s steps(1) infinite} @keyframes blink{50%{opacity:0}}
+ .flick{animation:flick 6s infinite} @keyframes flick{0%,48%,52%,100%{opacity:1}50%{opacity:.9}}
+ .roll{animation:roll 7s linear infinite} @keyframes roll{from{transform:translateY(0)}to{transform:translateY(420px)}}
+ .fa{animation:fa 1.2s steps(1) infinite} .fb{animation:fb 1.2s steps(1) infinite}
+ @keyframes fa{50%{opacity:0}} @keyframes fb{0%{opacity:0}50%{opacity:1}}
+ .drift{animation:drift 6s ease-in-out infinite} @keyframes drift{0%,100%{transform:translateX(0)}50%{transform:translateX(-40px)}}
+ .bar{transform:scaleX(0);transform-origin:238px 0;animation:bar 1s steps(10) 1s forwards} @keyframes bar{to{transform:scaleX(1)}}
+ .led{animation:led 2s ease-in-out infinite} @keyframes led{50%{opacity:.2}}
+ .shot{opacity:0;animation:shot 6s linear infinite} @keyframes shot{0%,60%{opacity:0;transform:translateY(0)}61%{opacity:1;transform:translateY(0)}75%{opacity:1;transform:translateY(150px)}76%,100%{opacity:0;transform:translateY(150px)}}
+ .hue{animation:hue 8s linear infinite} @keyframes hue{to{filter:hue-rotate(360deg)}}
+</style>
+<defs>
+ <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="2" fill="#000" opacity=".3"/></pattern>
+ <radialGradient id="vig" cx="50%" cy="50%" r="75%"><stop offset=".55" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".7"/></radialGradient>
+ <radialGradient id="tint" cx="50%" cy="40%" r="75%"><stop offset="0" stop-color="#101a33"/><stop offset="1" stop-color="#070a14"/></radialGradient>
+ <filter id="glow" x="-10%" y="-30%" width="120%" height="160%"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><linearGradient id="synth" x1="0" x2="1"><stop offset="0" stop-color="#2de2ff"/><stop offset=".5" stop-color="#a77bff"/><stop offset="1" stop-color="#ff4fa3"/></linearGradient>
+ <clipPath id="scr"><rect width="840" height="190" rx="12"/></clipPath>
+</defs>
+<rect width="840" height="190" rx="12" fill="url(#tint)"/>
+<g class="flick" filter="url(#glow)">
+<text x="40" y="30" font-size="12" class="t dim">C:\&gt; <tspan class="grn">specs</tspan> /all</text>
+<text x="40" y="64" font-size="15" class="t  on" style="animation-delay:0.2s"><tspan style="fill:#2de2ff">LANGUAGES</tspan><tspan class="dim"> ..... </tspan>GO  C++  C#  PYTHON  JAVASCRIPT  TYPESCRIPT</text>
+<text x="40" y="94" font-size="15" class="t  on" style="animation-delay:0.45s"><tspan style="fill:#ff4fa3">FRONTEND</tspan><tspan class="dim"> ...... </tspan>REACT  TAILWIND  HTML  CSS</text>
+<text x="40" y="124" font-size="15" class="t  on" style="animation-delay:0.7s"><tspan style="fill:#ffb627">DATABASES</tspan><tspan class="dim"> ..... </tspan>POSTGRESQL  MYSQL  FIREBASE</text>
+<text x="40" y="154" font-size="15" class="t  on" style="animation-delay:0.95s"><tspan style="fill:#a77bff">TOOLS</tspan><tspan class="dim"> ......... </tspan>DOCKER  GIT  ARDUINO  MATLAB</text>
+</g>
+<g clip-path="url(#scr)"><rect width="840" height="190" fill="url(#scan)"/><rect width="840" height="190" fill="url(#vig)"/>
+ <rect class="roll" y="-60" width="840" height="60" fill="#fff" opacity=".03"/></g>
+<rect x="1" y="1" width="838" height="188" rx="12" fill="none" stroke="#26324a" stroke-width="2"/>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="410" height="158" viewBox="0 0 410 158" role="img" aria-label="VIAN: peer-to-peer encrypted messaging between machines on the local network.">
+<style>
+ .t{font-family:ui-monospace, 'Cascadia Mono', Consolas, 'SF Mono', Menlo, 'Liberation Mono', monospace;fill:#d6f2ff} .dim{fill:#6f8aa3}
+ .grn{fill:#39ff88} .cyn{fill:#2de2ff} .pnk{fill:#ff4fa3} .amb{fill:#ffb627} .pur{fill:#a77bff}
+ .on{opacity:0;animation:on 0s linear forwards} @keyframes on{to{opacity:1}}
+ .blink{animation:blink 1s steps(1) infinite} @keyframes blink{50%{opacity:0}}
+ .flick{animation:flick 6s infinite} @keyframes flick{0%,48%,52%,100%{opacity:1}50%{opacity:.9}}
+ .roll{animation:roll 7s linear infinite} @keyframes roll{from{transform:translateY(0)}to{transform:translateY(420px)}}
+ .fa{animation:fa 1.2s steps(1) infinite} .fb{animation:fb 1.2s steps(1) infinite}
+ @keyframes fa{50%{opacity:0}} @keyframes fb{0%{opacity:0}50%{opacity:1}}
+ .drift{animation:drift 6s ease-in-out infinite} @keyframes drift{0%,100%{transform:translateX(0)}50%{transform:translateX(-40px)}}
+ .bar{transform:scaleX(0);transform-origin:238px 0;animation:bar 1s steps(10) 1s forwards} @keyframes bar{to{transform:scaleX(1)}}
+ .led{animation:led 2s ease-in-out infinite} @keyframes led{50%{opacity:.2}}
+ .shot{opacity:0;animation:shot 6s linear infinite} @keyframes shot{0%,60%{opacity:0;transform:translateY(0)}61%{opacity:1;transform:translateY(0)}75%{opacity:1;transform:translateY(150px)}76%,100%{opacity:0;transform:translateY(150px)}}
+ .hue{animation:hue 8s linear infinite} @keyframes hue{to{filter:hue-rotate(360deg)}}
+</style>
+<defs>
+ <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="2" fill="#000" opacity=".3"/></pattern>
+ <radialGradient id="vig" cx="50%" cy="50%" r="75%"><stop offset=".55" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".7"/></radialGradient>
+ <radialGradient id="tint" cx="50%" cy="40%" r="75%"><stop offset="0" stop-color="#101a33"/><stop offset="1" stop-color="#070a14"/></radialGradient>
+ <filter id="glow" x="-10%" y="-30%" width="120%" height="160%"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><linearGradient id="synth" x1="0" x2="1"><stop offset="0" stop-color="#2de2ff"/><stop offset=".5" stop-color="#a77bff"/><stop offset="1" stop-color="#ff4fa3"/></linearGradient>
+ <clipPath id="scr"><rect width="410" height="158" rx="10"/></clipPath>
+</defs>
+<rect width="410" height="158" rx="10" fill="url(#tint)"/>
+<g class="flick" filter="url(#glow)">
+<text x="22" y="28" font-size="11" class="t dim">PROGRAM 03/08</text>
+<text x="388" y="28" font-size="11" text-anchor="end" class="t " style="fill:#2de2ff">[GO]</text>
+<circle class="led" cx="348" cy="24.5" r="3" fill="#2de2ff" style="animation-delay:-0.5s"/>
+<path class="" fill="#ffb627" d="M22 40h2v2h-2zM30 40h2v2h-2zM22 42h2v2h-2zM30 42h2v2h-2zM22 44h2v2h-2zM30 44h2v2h-2zM22 46h2v2h-2zM30 46h2v2h-2zM22 48h2v2h-2zM30 48h2v2h-2zM24 50h2v2h-2zM28 50h2v2h-2zM26 52h2v2h-2zM36 40h2v2h-2zM38 40h2v2h-2zM40 40h2v2h-2zM38 42h2v2h-2zM38 44h2v2h-2zM38 46h2v2h-2zM38 48h2v2h-2zM38 50h2v2h-2zM36 52h2v2h-2zM38 52h2v2h-2zM40 52h2v2h-2zM48 40h2v2h-2zM50 40h2v2h-2zM52 40h2v2h-2zM46 42h2v2h-2zM54 42h2v2h-2zM46 44h2v2h-2zM54 44h2v2h-2zM46 46h2v2h-2zM48 46h2v2h-2zM50 46h2v2h-2zM52 46h2v2h-2zM54 46h2v2h-2zM46 48h2v2h-2zM54 48h2v2h-2zM46 50h2v2h-2zM54 50h2v2h-2zM46 52h2v2h-2zM54 52h2v2h-2zM58 40h2v2h-2zM66 40h2v2h-2zM58 42h2v2h-2zM66 42h2v2h-2zM58 44h2v2h-2zM60 44h2v2h-2zM66 44h2v2h-2zM58 46h2v2h-2zM62 46h2v2h-2zM66 46h2v2h-2zM58 48h2v2h-2zM64 48h2v2h-2zM66 48h2v2h-2zM58 50h2v2h-2zM66 50h2v2h-2zM58 52h2v2h-2zM66 52h2v2h-2z"/>
+<text x="22" y="80" font-size="13.5" class="t ">peer-to-peer encrypted messaging</text>
+<text x="22" y="101" font-size="13.5" class="t ">between machines on the local network.</text>
+<text x="22" y="140" font-size="12.5" class="t dim">C:\&gt; <tspan style="fill:#ffb627">run</tspan> vian<tspan class="blink" style="fill:#ffb627"> _</tspan></text>
+</g>
+<g clip-path="url(#scr)"><rect width="410" height="158" fill="url(#scan)"/><rect width="410" height="158" fill="url(#vig)"/>
+ <rect class="roll" y="-60" width="410" height="60" fill="#fff" opacity=".03"/></g>
+<rect x="1" y="1" width="408" height="156" rx="10" fill="none" stroke="#ffb62755" stroke-width="2"/>
+</svg>

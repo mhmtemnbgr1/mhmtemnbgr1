@@ -2,35 +2,35 @@ name: Generate Snake
 
 on:
   schedule:
-    # Her 12 saatte bir çalışır (GitHub sunucularını çok yormamak için 12 idealdir)
+    # Her 12 saatte bir çalışır
     - cron: "0 */12 * * *"
-  
-  # Actions sekmesinden manuel olarak çalıştırmana olanak tanır
+  # Actions sekmesinden manuel çalıştırma
   workflow_dispatch:
+  # README'ye push gelince de yeniden üret
+  push:
+    branches: [main]
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    
-    # Botun dosyaları output dalına yazabilmesi için gereken yetki
+
+    # Botun output dalına yazabilmesi için gereken yetki
     permissions:
       contents: write
 
     steps:
-      - name: Checkout Repo
-        uses: actions/checkout@v3
-
       - name: Generate Snake Animation
         uses: Platane/snk@v3
         with:
           github_user_name: mhmtemnbgr1
-          # Hem normal hem de karanlık mod için iki ayrı SVG üretir
+          # Retro arcade paleti: koyu ızgara, mor -> pembe -> turuncu -> camgöbeği, yeşil yılan
           outputs: |
+            dist/snake-retro.svg?color_snake=#39ff88&color_dots=#151c33,#4b2a7a,#ff4fa3,#ffb627,#2de2ff&color_dot_border=#0a0f1f
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
       - name: Push to Output Branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
