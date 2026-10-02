@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="167" height="46" viewBox="0 0 167 46" role="img" aria-label="EMAIL">
 <style>
- .t{font-family:ui-monospace, 'Cascadia Mono', Consolas, 'SF Mono', Menlo, 'Liberation Mono', monospace;fill:#d6f2ff} .dim{fill:#6f8aa3}
- .grn{fill:#39ff88} .cyn{fill:#2de2ff} .pnk{fill:#ff4fa3} .amb{fill:#ffb627} .pur{fill:#a77bff}
+ .t{font-family:ui-monospace, 'Cascadia Mono', Consolas, 'SF Mono', Menlo, 'Liberation Mono', monospace;fill:#cdeedb} .dim{fill:#5f8a72}
+ .grn{fill:#3dff7f} .cyn{fill:#6fd6e8} .pnk{fill:#ffb627} .amb{fill:#ffb627} .pur{fill:#6fd6e8}
  .on{opacity:0;animation:on 0s linear forwards} @keyframes on{to{opacity:1}}
  .blink{animation:blink 1s steps(1) infinite} @keyframes blink{50%{opacity:0}}
  .flick{animation:flick 6s infinite} @keyframes flick{0%,48%,52%,100%{opacity:1}50%{opacity:.9}}
@@ -17,15 +17,15 @@
 <defs>
  <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="2" fill="#000" opacity=".3"/></pattern>
  <radialGradient id="vig" cx="50%" cy="50%" r="75%"><stop offset=".55" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".7"/></radialGradient>
- <radialGradient id="tint" cx="50%" cy="40%" r="75%"><stop offset="0" stop-color="#101a33"/><stop offset="1" stop-color="#070a14"/></radialGradient>
- <filter id="glow" x="-10%" y="-30%" width="120%" height="160%"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><linearGradient id="synth" x1="0" x2="1"><stop offset="0" stop-color="#2de2ff"/><stop offset=".5" stop-color="#a77bff"/><stop offset="1" stop-color="#ff4fa3"/></linearGradient>
+ <radialGradient id="tint" cx="50%" cy="40%" r="75%"><stop offset="0" stop-color="#0d2216"/><stop offset="1" stop-color="#050a07"/></radialGradient>
+ <filter id="glow" x="-10%" y="-30%" width="120%" height="160%"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><linearGradient id="synth" x1="0" x2="1"><stop offset="0" stop-color="#6fd6e8"/><stop offset=".5" stop-color="#6fd6e8"/><stop offset="1" stop-color="#ffb627"/></linearGradient>
  <clipPath id="scr"><rect width="167" height="46" rx="4"/></clipPath>
 </defs>
 <rect width="167" height="46" rx="4" fill="url(#tint)"/>
 <g class="flick" filter="url(#glow)">
-<g class="blink"><path class="" fill="#ff4fa3" d="M25 12h3v3h-3zM28 15h3v3h-3zM31 18h3v3h-3zM34 21h3v3h-3zM31 24h3v3h-3zM28 27h3v3h-3zM25 30h3v3h-3z"/></g><path class="" fill="#ff4fa3" d="M58 12h3v3h-3zM61 12h3v3h-3zM64 12h3v3h-3zM67 12h3v3h-3zM70 12h3v3h-3zM58 15h3v3h-3zM58 18h3v3h-3zM58 21h3v3h-3zM61 21h3v3h-3zM64 21h3v3h-3zM67 21h3v3h-3zM58 24h3v3h-3zM58 27h3v3h-3zM58 30h3v3h-3zM61 30h3v3h-3zM64 30h3v3h-3zM67 30h3v3h-3zM70 30h3v3h-3zM76 12h3v3h-3zM88 12h3v3h-3zM76 15h3v3h-3zM79 15h3v3h-3zM85 15h3v3h-3zM88 15h3v3h-3zM76 18h3v3h-3zM82 18h3v3h-3zM88 18h3v3h-3zM76 21h3v3h-3zM82 21h3v3h-3zM88 21h3v3h-3zM76 24h3v3h-3zM88 24h3v3h-3zM76 27h3v3h-3zM88 27h3v3h-3zM76 30h3v3h-3zM88 30h3v3h-3zM97 12h3v3h-3zM100 12h3v3h-3zM103 12h3v3h-3zM94 15h3v3h-3zM106 15h3v3h-3zM94 18h3v3h-3zM106 18h3v3h-3zM94 21h3v3h-3zM97 21h3v3h-3zM100 21h3v3h-3zM103 21h3v3h-3zM106 21h3v3h-3zM94 24h3v3h-3zM106 24h3v3h-3zM94 27h3v3h-3zM106 27h3v3h-3zM94 30h3v3h-3zM106 30h3v3h-3zM115 12h3v3h-3zM118 12h3v3h-3zM121 12h3v3h-3zM118 15h3v3h-3zM118 18h3v3h-3zM118 21h3v3h-3zM118 24h3v3h-3zM118 27h3v3h-3zM115 30h3v3h-3zM118 30h3v3h-3zM121 30h3v3h-3zM130 12h3v3h-3zM130 15h3v3h-3zM130 18h3v3h-3zM130 21h3v3h-3zM130 24h3v3h-3zM130 27h3v3h-3zM130 30h3v3h-3zM133 30h3v3h-3zM136 30h3v3h-3zM139 30h3v3h-3zM142 30h3v3h-3z"/>
+<g class="blink"><path class="" fill="#ffb627" d="M25 12h3v3h-3zM28 15h3v3h-3zM31 18h3v3h-3zM34 21h3v3h-3zM31 24h3v3h-3zM28 27h3v3h-3zM25 30h3v3h-3z"/></g><path class="" fill="#3dff7f" d="M58 12h3v3h-3zM61 12h3v3h-3zM64 12h3v3h-3zM67 12h3v3h-3zM70 12h3v3h-3zM58 15h3v3h-3zM58 18h3v3h-3zM58 21h3v3h-3zM61 21h3v3h-3zM64 21h3v3h-3zM67 21h3v3h-3zM58 24h3v3h-3zM58 27h3v3h-3zM58 30h3v3h-3zM61 30h3v3h-3zM64 30h3v3h-3zM67 30h3v3h-3zM70 30h3v3h-3zM76 12h3v3h-3zM88 12h3v3h-3zM76 15h3v3h-3zM79 15h3v3h-3zM85 15h3v3h-3zM88 15h3v3h-3zM76 18h3v3h-3zM82 18h3v3h-3zM88 18h3v3h-3zM76 21h3v3h-3zM82 21h3v3h-3zM88 21h3v3h-3zM76 24h3v3h-3zM88 24h3v3h-3zM76 27h3v3h-3zM88 27h3v3h-3zM76 30h3v3h-3zM88 30h3v3h-3zM97 12h3v3h-3zM100 12h3v3h-3zM103 12h3v3h-3zM94 15h3v3h-3zM106 15h3v3h-3zM94 18h3v3h-3zM106 18h3v3h-3zM94 21h3v3h-3zM97 21h3v3h-3zM100 21h3v3h-3zM103 21h3v3h-3zM106 21h3v3h-3zM94 24h3v3h-3zM106 24h3v3h-3zM94 27h3v3h-3zM106 27h3v3h-3zM94 30h3v3h-3zM106 30h3v3h-3zM115 12h3v3h-3zM118 12h3v3h-3zM121 12h3v3h-3zM118 15h3v3h-3zM118 18h3v3h-3zM118 21h3v3h-3zM118 24h3v3h-3zM118 27h3v3h-3zM115 30h3v3h-3zM118 30h3v3h-3zM121 30h3v3h-3zM130 12h3v3h-3zM130 15h3v3h-3zM130 18h3v3h-3zM130 21h3v3h-3zM130 24h3v3h-3zM130 27h3v3h-3zM130 30h3v3h-3zM133 30h3v3h-3zM136 30h3v3h-3zM139 30h3v3h-3zM142 30h3v3h-3z"/>
 </g>
 <g clip-path="url(#scr)"><rect width="167" height="46" fill="url(#scan)"/><rect width="167" height="46" fill="url(#vig)"/>
  <rect class="roll" y="-60" width="167" height="60" fill="#fff" opacity=".03"/></g>
-<rect x="1" y="1" width="165" height="44" rx="4" fill="none" stroke="#ff4fa366" stroke-width="2"/>
+<rect x="1" y="1" width="165" height="44" rx="4" fill="none" stroke="#173d27" stroke-width="2"/>
 </svg>
